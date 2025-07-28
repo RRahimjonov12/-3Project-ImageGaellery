@@ -1,0 +1,33 @@
+/* Add custom rules here... */
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallery-item {
+  display: block;
+  width: 14rem;
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+ border: 2px solid rgb(100, 100, 100);
+ border-radius: 0.5rem;
+}
+ .gallery-item h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1rem;
+    height: 3rem;
+    color: black;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-top: 0.25rem;
+
+ }
+
+ .gallery-item img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1920/1440;
+    object-fit: cover ;
+ }
